@@ -1,0 +1,74 @@
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+    
+
+    
+    a {
+        font-size: 18px;
+        font-weight: bold;
+    }
+  
+    .CarouselNew {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    .div {
+        box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
+        color: white;
+        border-radius: 15px;
+        margin: auto;
+    }
+    
+    .SosyalMedya {
+        width: 50px;
+        height: 200px;
+        position: fixed;
+        margin-top: 50px;
+        z-index: 999999;
+    }
+    
+    .SosyalMedya ul li a i {
+        font-size: 34px;
+    }
+    
+    a i {
+        font-size: 24px;
+        padding-left: 5px;
+    }
+    
+    .Links ul li a {
+        transition: 06.s ease-in;
+        transition-duration: 0.5s;
+        border-radius: 7px;
+    }
+    
+    .Links ul li a:hover {
+        background-color: white;
+        color: red;
+    }
+    
+    .p {
+        box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
+        height: 300px;
+        width: 300px;
+        display: flex;
+        background-color: red;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        border-radius: 15px;
+        text-align: justify;
+        padding: 15px;
+        margin: auto;
+    }
+    
+    .hakkımızdap {
+        color: white;
+        font-size: 20px;
+    }
+   

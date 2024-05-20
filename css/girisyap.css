@@ -1,0 +1,32 @@
+    .login-form {
+        padding: 40px 0 40px 0;
+        background: white;
+        width: 300px;
+        margin: auto;
+        padding: 25px;
+    }
+    
+    .form-control {
+        position: relative;
+        box-sizing: border-box;
+    }
+    
+    .form-control:focus {
+        position: relative;
+        z-index: 2;
+    }
+    
+    input[type='email'] {
+        border-bottom-left-radius: 0;
+        border-bottom-right-radius: 0;
+    }
+    
+    input[type='password'] {
+        border-top-left-radius: 0;
+        border-top-right-radius: 0;
+    }
+    
+    .login {
+        margin-top: 40px;
+        margin-bottom: 120px;
+    }
